@@ -9,11 +9,11 @@ var playPauseButton = document.getElementById("playPauseButton");
 //     var direction = 1; // 1 for right, -1 for left
 
 yesBtn.addEventListener("click", () => {
-    question.innerHTML = "Yay, See you tomorrow!";
-    giff.src="image/dance.gif";
+    question.innerHTML = "Yay, See you on monday!";
+    giff.src="image/gif 2.gif";
     yesBtn.addEventListener("click", ()=>{
         question.innerHTML="Thank You!!!!";
-        giff.src="image/img2.jpg";
+        giff.src="image/11.jpeg";
         yesBtn.style.display="none";
     });
     yesBtn.style.marginRight ="10px"
