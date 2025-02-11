@@ -10,10 +10,10 @@ var playPauseButton = document.getElementById("playPauseButton");
 
 yesBtn.addEventListener("click", () => {
     question.innerHTML = "Yay, See you on Thrusday!";
-    giff.src="image/gif 2.gif";
+    giff.src="image/dance.gif";
     yesBtn.addEventListener("click", ()=>{
         question.innerHTML="Thank You!!!!";
-        giff.src="image/gif1.gif";
+        giff.src="image/gif 2.gif";
         yesBtn.style.display="none";
     });
     yesBtn.style.marginRight ="10px"
